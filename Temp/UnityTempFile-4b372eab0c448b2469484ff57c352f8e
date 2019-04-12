@@ -1,0 +1,182 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:D:/Unity/Unity/Editor/Data/Managed/UnityEngine.dll
+-r:D:/Unity/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+-r:D:/Unity/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+-r:Assets/External/Tiinoo/TiinooShared/Tiinoo.Engine.dll
+-r:Assets/External/UIAddons/Plugins/UIAddons/UIAddons.dll
+-r:D:/Unity/Unity/Editor/Data/Managed/UnityEditor.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_4_3
+-define:UNITY_5_4
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_EDITOR_RETINA
+-define:ENABLE_RETINA_GUISTYLES
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:UNITY_TEAM_LICENSE
+Assets/External/TypefaceAnimator/Scripts/TypefaceAnimator.cs
+Assets/External/UIAddons/Scripts/SceneExample.cs
+Assets/External/UIWidgets/SampleAssets/CenteredSliderLabel.cs
+Assets/External/UIWidgets/SampleAssets/DialogInputHelper.cs
+Assets/External/UIWidgets/SampleAssets/ListViewCustomSample.cs
+Assets/External/UIWidgets/SampleAssets/ListViewCustomSampleComponent.cs
+Assets/External/UIWidgets/SampleAssets/ListViewUnderlineSample.cs
+Assets/External/UIWidgets/SampleAssets/ListViewUnderlineSampleComponent.cs
+Assets/External/UIWidgets/SampleAssets/ListViewVariableHeight.cs
+Assets/External/UIWidgets/SampleAssets/ListViewVariableHeightComponent.cs
+Assets/External/UIWidgets/SampleAssets/RangeSliderFloatSample.cs
+Assets/External/UIWidgets/SampleAssets/RangeSliderSample.cs
+Assets/External/UIWidgets/SampleAssets/SampleFilter.cs
+Assets/External/UIWidgets/SampleAssets/SampleProgressBar1.cs
+Assets/External/UIWidgets/SampleAssets/SampleProgressBar2.cs
+Assets/External/UIWidgets/SampleAssets/SampleProgressbar.cs
+Assets/External/UIWidgets/SampleAssets/TestListView.cs
+Assets/External/UIWidgets/SampleAssets/TestListViewPerformance.cs
+Assets/External/UIWidgets/SampleAssets/UITestSamples.cs
+"Assets/External/UIWidgets/Standart Assets/Accordion.cs"
+"Assets/External/UIWidgets/Standart Assets/AccordionItemComponent.cs"
+"Assets/External/UIWidgets/Standart Assets/Animations.cs"
+"Assets/External/UIWidgets/Standart Assets/BringToFront.cs"
+"Assets/External/UIWidgets/Standart Assets/ButtonAdvanced.cs"
+"Assets/External/UIWidgets/Standart Assets/CenteredSlider.cs"
+"Assets/External/UIWidgets/Standart Assets/CenteredSliderBase.cs"
+"Assets/External/UIWidgets/Standart Assets/CenteredSliderVertical.cs"
+"Assets/External/UIWidgets/Standart Assets/Combobox.cs"
+"Assets/External/UIWidgets/Standart Assets/ComboboxCustom.cs"
+"Assets/External/UIWidgets/Standart Assets/ComboboxIcons.cs"
+"Assets/External/UIWidgets/Standart Assets/Dialog.cs"
+"Assets/External/UIWidgets/Standart Assets/DialogActions.cs"
+"Assets/External/UIWidgets/Standart Assets/Draggable.cs"
+"Assets/External/UIWidgets/Standart Assets/DraggableHandle.cs"
+"Assets/External/UIWidgets/Standart Assets/EasyLayout.cs"
+"Assets/External/UIWidgets/Standart Assets/IItemHeight.cs"
+"Assets/External/UIWidgets/Standart Assets/IListViewItemHeight.cs"
+"Assets/External/UIWidgets/Standart Assets/ITemplatable.cs"
+"Assets/External/UIWidgets/Standart Assets/ImageAdvanced.cs"
+"Assets/External/UIWidgets/Standart Assets/ListView.cs"
+"Assets/External/UIWidgets/Standart Assets/ListViewBase.cs"
+"Assets/External/UIWidgets/Standart Assets/ListViewCustom.cs"
+"Assets/External/UIWidgets/Standart Assets/ListViewCustomHeight.cs"
+"Assets/External/UIWidgets/Standart Assets/ListViewGameObjects.cs"
+"Assets/External/UIWidgets/Standart Assets/ListViewIcons.cs"
+"Assets/External/UIWidgets/Standart Assets/ListViewIconsItemComponent.cs"
+"Assets/External/UIWidgets/Standart Assets/ListViewItem.cs"
+"Assets/External/UIWidgets/Standart Assets/ListViewItemEventData.cs"
+"Assets/External/UIWidgets/Standart Assets/ListViewStringComponent.cs"
+"Assets/External/UIWidgets/Standart Assets/ModalHelper.cs"
+"Assets/External/UIWidgets/Standart Assets/Notify.cs"
+"Assets/External/UIWidgets/Standart Assets/OnDragKeepSelected.cs"
+"Assets/External/UIWidgets/Standart Assets/Progressbar.cs"
+"Assets/External/UIWidgets/Standart Assets/RangeSlider.cs"
+"Assets/External/UIWidgets/Standart Assets/RangeSliderBase.cs"
+"Assets/External/UIWidgets/Standart Assets/RangeSliderFloat.cs"
+"Assets/External/UIWidgets/Standart Assets/RangeSliderFloatVertical.cs"
+"Assets/External/UIWidgets/Standart Assets/RangeSliderHandle.cs"
+"Assets/External/UIWidgets/Standart Assets/RangeSliderVertical.cs"
+"Assets/External/UIWidgets/Standart Assets/ResizeListener.cs"
+"Assets/External/UIWidgets/Standart Assets/SelectListener.cs"
+"Assets/External/UIWidgets/Standart Assets/SlideUp.cs"
+"Assets/External/UIWidgets/Standart Assets/Spinner.cs"
+"Assets/External/UIWidgets/Standart Assets/SpinnerFloat.cs"
+"Assets/External/UIWidgets/Standart Assets/Tabs.cs"
+"Assets/External/UIWidgets/Standart Assets/Templates.cs"
+"Assets/External/UIWidgets/Standart Assets/Tooltip.cs"
+"Assets/External/UIWidgets/Standart Assets/Utilites.cs"
+"Assets/External/Vortex Game Studios/SpriteFontBuilder/SpriteFontComponent.cs"
+Assets/External/unity-ui-extensions/Scripts/Effects/CurvedText.cs
+Assets/External/unity-ui-extensions/Scripts/Effects/CylinderText.cs
+Assets/External/unity-ui-extensions/Scripts/Effects/Gradient.cs
+Assets/External/unity-ui-extensions/Scripts/Effects/NicerOutline.cs
+Assets/External/unity-ui-extensions/Scripts/Effects/UIFlippable.cs
+Assets/External/unity-ui-extensions/Scripts/Layout/RadialLayout.cs
+Assets/External/unity-ui-extensions/Scripts/Primitives/UICircle.cs
+Assets/External/unity-ui-extensions/Scripts/Primitives/UIPrimitiveBase.cs
+Assets/External/unity-ui-extensions/Scripts/Utilities/SetPropertyUtility.cs
+Assets/Script/Camera.cs
+Assets/Script/Music.cs
+Assets/Script/Player.cs
+Assets/Script/StartGame.cs
+Assets/Script/UI_Script.cs
+Assets/UI/Scripts/CameraFacingBillboard.cs
+Assets/UI/Scripts/FlowLayoutGroup.cs
+Assets/UI/Scripts/GUIAnimEvent.cs
+Assets/UI/Scripts/ScrollRectAnimation.cs
+Assets/UI/Scripts/ScrollRectDelay.cs
+Assets/UI/Scripts/UI_FPS.cs
+Assets/UI/Scripts/UI_FlickerFlare.cs
+Assets/UI/Scripts/UI_ParticleScaleAspectRatio.cs
+Assets/UI/Scripts/UI_ProgressBarC.cs
+Assets/UI/UI_VersionNumber.cs
+Assets/UI/Widgets/EditorOnly3DCube/CubeRotate.cs
+-r:D:\Unity\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll
+-r:D:\Unity\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll

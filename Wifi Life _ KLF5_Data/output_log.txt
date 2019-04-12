@@ -1,0 +1,36 @@
+Initialize engine version: 5.4.3f1 (01f4c123905a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1070 Ti (ID=0x1b82)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Unity\GGJ\GGJ Game\Wifi Life _ KLF5_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Unity\GGJ\GGJ Game\Wifi Life _ KLF5_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Unity\GGJ\GGJ Game\Wifi Life _ KLF5_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Unity\GGJ\GGJ Game\Wifi Life _ KLF5_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Unity\GGJ\GGJ Game\Wifi Life _ KLF5_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Unity\GGJ\GGJ Game\Wifi Life _ KLF5_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Unity\GGJ\GGJ Game\Wifi Life _ KLF5_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Unity\GGJ\GGJ Game\Wifi Life _ KLF5_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Unity\GGJ\GGJ Game\Wifi Life _ KLF5_Data\Managed\Tiinoo.Engine.dll (this message is harmless)
+Loading D:\Unity\GGJ\GGJ Game\Wifi Life _ KLF5_Data\Managed\Tiinoo.Engine.dll into Unity Child Domain
+Platform assembly: D:\Unity\GGJ\GGJ Game\Wifi Life _ KLF5_Data\Managed\UIAddons.dll (this message is harmless)
+Loading D:\Unity\GGJ\GGJ Game\Wifi Life _ KLF5_Data\Managed\UIAddons.dll into Unity Child Domain
+- Completed reload, in  0.036 seconds
+Platform assembly: D:\Unity\GGJ\GGJ Game\Wifi Life _ KLF5_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Unity\GGJ\GGJ Game\Wifi Life _ KLF5_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.654586 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 7d6c -> priority: 1 
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.756487 ms
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 877.
+Total: 0.384729 ms (FindLiveObjects: 0.032091 ms CreateObjectMapping: 0.024797 ms MarkObjects: 0.284808 ms  DeleteObjects: 0.042666 ms)
+

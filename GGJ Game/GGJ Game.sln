@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B9F04E98-0BA9-E332-1792-640DC05D54B1}") = "GGJ Game", "Assembly-CSharp.csproj", "{A42292B4-7015-3E9D-C209-ACBB72E23520}"
+EndProject
+Project("{B9F04E98-0BA9-E332-1792-640DC05D54B1}") = "GGJ Game", "Assembly-CSharp-Editor.csproj", "{B82EFCB8-6E4E-4BAE-4988-B2E91435E88F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A42292B4-7015-3E9D-C209-ACBB72E23520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42292B4-7015-3E9D-C209-ACBB72E23520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42292B4-7015-3E9D-C209-ACBB72E23520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42292B4-7015-3E9D-C209-ACBB72E23520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82EFCB8-6E4E-4BAE-4988-B2E91435E88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82EFCB8-6E4E-4BAE-4988-B2E91435E88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82EFCB8-6E4E-4BAE-4988-B2E91435E88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82EFCB8-6E4E-4BAE-4988-B2E91435E88F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
