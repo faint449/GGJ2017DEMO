@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 // Shader created with Shader Forge v1.27 
@@ -73,7 +75,7 @@ Shader "ZDGO/Albedo(AlphaTest)_Specular(Gloss)_ToLightRim_LightWrapping_Outline"
                 o.uv2 = v.texcoord2;
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
                 float4 _OutlineMask_var = tex2Dlod(_OutlineMask,float4(TRANSFORM_TEX(o.uv0, _OutlineMask),0.0,0));
-                o.pos = mul(UNITY_MATRIX_MVP, float4(v.vertex.xyz + v.normal*(_OutlineWidth*_OutlineMask_var.r),1) );
+                o.pos = UnityObjectToClipPos(float4(v.vertex.xyz + v.normal*(_OutlineWidth*_OutlineMask_var.r),1) );
                 UNITY_TRANSFER_FOG(o,o.pos);
                 return o;
             }
@@ -158,7 +160,7 @@ Shader "ZDGO/Albedo(AlphaTest)_Specular(Gloss)_ToLightRim_LightWrapping_Outline"
                 o.bitangentDir = normalize(cross(o.normalDir, o.tangentDir) * v.tangent.w);
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
                 float3 lightColor = _LightColor0.rgb;
-                o.pos = mul(UNITY_MATRIX_MVP, v.vertex );
+                o.pos = UnityObjectToClipPos(v.vertex );
                 UNITY_TRANSFER_FOG(o,o.pos);
                 TRANSFER_VERTEX_TO_FRAGMENT(o)
                 return o;
@@ -364,7 +366,7 @@ Shader "ZDGO/Albedo(AlphaTest)_Specular(Gloss)_ToLightRim_LightWrapping_Outline"
                 o.bitangentDir = normalize(cross(o.normalDir, o.tangentDir) * v.tangent.w);
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
                 float3 lightColor = _LightColor0.rgb;
-                o.pos = mul(UNITY_MATRIX_MVP, v.vertex );
+                o.pos = UnityObjectToClipPos(v.vertex );
                 UNITY_TRANSFER_FOG(o,o.pos);
                 TRANSFER_VERTEX_TO_FRAGMENT(o)
                 return o;
